@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="RippleImageView">
-        <attr name="foreground" />
-        <attr name="foregroundInsidePadding" />
-        <attr name="foregroundGravity" />
+        <attr name="android:foreground" />
+        <attr name="android:foregroundInsidePadding" />
+        <attr name="android:foregroundGravity" />
     </declare-styleable>
+
+        <declare-styleable name="ForegroundImageView">
+            <attr name="android:foreground"/>
+        </declare-styleable>
+
 </resources>

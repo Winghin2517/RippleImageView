@@ -11,9 +11,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.ImageView;
 
-/**
- * Created by WingHinChan on 2016/01/12.
- */
+
 public class RippleImageView extends ImageView {
 
     private Drawable mForeground;
@@ -41,15 +39,15 @@ public class RippleImageView extends ImageView {
                 defStyle, 0);
 
         mForegroundGravity = a.getInt(
-                R.styleable.RippleImageView_foregroundGravity, mForegroundGravity);
+                R.styleable.RippleImageView_android_foregroundGravity, mForegroundGravity);
 
-        final Drawable d = a.getDrawable(R.styleable.RippleImageView_foreground);
+        final Drawable d = a.getDrawable(R.styleable.RippleImageView_android_foreground);
         if (d != null) {
             setForeground(d);
         }
 
         mForegroundInPadding = a.getBoolean(
-                R.styleable.RippleImageView_foregroundInsidePadding, true);
+                R.styleable.RippleImageView_android_foregroundInsidePadding, true);
 
         a.recycle();
     }
