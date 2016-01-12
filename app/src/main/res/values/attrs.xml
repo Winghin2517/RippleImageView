@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleImageView">
+        <attr name="foreground" />
+        <attr name="foregroundInsidePadding" />
+        <attr name="foregroundGravity" />
+    </declare-styleable>
+</resources>
